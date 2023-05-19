@@ -1,0 +1,15 @@
+my-tittle {
+    color: gray;
+}
+
+.title {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+* {
+    color: green;
+}
