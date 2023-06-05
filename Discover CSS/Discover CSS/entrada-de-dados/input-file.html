@@ -1,0 +1,36 @@
+<!--
+    <input type="file">
+
+    - Usuário poderá escolher 1 ou mais arquivos para enviar no forum
+
+    # Atributos
+
+    - value
+        - contem o arquivo a ser enviado
+    
+
+    - accept
+        - descreve que tipos de arquivos serão aceitos
+        - exemplo: .doc, .docx, .pdf, audio/*, imgage/png, .png
+
+    - files
+        - a lista de arquivo ou arquivos
+
+    - multiple
+        - permite o envio de múltiplos arquivos
+
+    # Envio dos arquivos
+    Para envio dos arquivos o formulário deverá utilizar o método POST e
+    o atributo enctype como "multipart/form-data"
+    
+-->
+
+<input type="file" accept=".doc" aria-label="texto">
+<input type="file" accept=".js" aria-label="texto">
+<input type="file" accept="image/*" aria-label="texto">
+<input type="file" accept="video/*" aria-label="texto">
+<input type="file" multiple aria-label="texto">
+
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="file" aria-label="texto">
+</form>

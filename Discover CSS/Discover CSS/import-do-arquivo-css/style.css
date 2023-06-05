@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+/* ou */
+
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+strong {
+    color: red;
+}

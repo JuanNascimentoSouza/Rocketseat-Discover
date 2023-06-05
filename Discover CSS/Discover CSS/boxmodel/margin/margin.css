@@ -1,0 +1,10 @@
+*{margin: 0;}
+
+.margin-inicial, .margin-abaixo{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 0 23px 8px 17px;
+}

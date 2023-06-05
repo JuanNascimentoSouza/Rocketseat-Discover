@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+/*
+header {
+    height: 100px;
+    border: 7px dashed red;
+    padding: 16px;
+}*/
+main{
+    color: white;
+
+
+    background-color: rgb(55, 100, 50);
+    background-image: url("https://source.unsplash.com/featured/300x203");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    background: linear-gradient(100deg, red, orange);
+}
