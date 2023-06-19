@@ -1,0 +1,29 @@
+
+<h3>Flexbox</h3>
+
+<p>
+    A caixa se torna flex, fazendo com que os
+    elementos internos possam reveber melhor:
+    <br>
+    - Alinhamento
+    - Ordenação
+    - Tamanhos flexíveis
+</p>
+
+<div class="flexbox">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+</div>
+
+<style>
+    .flexbox{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .item:nth-child(1){
+        order: 1;
+    }
+</style>
